@@ -1,0 +1,28 @@
+/*Element Selector*/
+body
+{
+    background-color: bisque;
+}
+/*Class Selector*/
+.title
+{
+    color: red;
+    text-align: center;
+}
+.head{
+    color: brown;
+}
+p.sync
+{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+/*Universal Selector*/
+*
+{
+    font-family: serif;
+}
+/*Grouping Selector*/
+p,h5{
+    color: rgb(19, 10, 5);
+}
