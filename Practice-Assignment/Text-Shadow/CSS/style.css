@@ -1,0 +1,35 @@
+/*Shadow for the text*/
+
+.Right-Shadow
+{
+    text-shadow: 0.2rem 0 0 yellow;
+
+}
+.Left-Shadow
+{
+    text-shadow: -0.2rem 0 0 yellow;
+}
+.Top-Shadow
+{
+    text-shadow: 0 -0.2rem 0 yellow;
+
+}
+.Bottom-Shadow
+{
+    text-shadow: 0 0.2rem 0 yellow;
+}
+.Shadow-Blurring
+{
+    text-shadow: 0 -0.2rem 0.2rem rgb(201, 74, 167);
+
+}
+
+.Shadow-Color
+{
+    text-shadow: 0 -0.2rem 0 yellow;
+
+}
+.Combine-Shadow
+{
+    text-shadow: 0.2rem 0.2rem 0.5rem red;
+}
