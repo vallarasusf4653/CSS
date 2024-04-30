@@ -1,0 +1,136 @@
+/* Text -Alignment */
+
+*
+{
+    background-color: bisque;
+}
+/*--------------------------------------------------------------------------*/
+/* Text -Alignment */
+.html{
+    /* Text -Alignment center */
+    text-align: center;
+
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    background-color: brown;
+
+}
+
+.css{
+    /* Text -Alignment  center*/
+    text-align: center;
+    font-size: 2rem;
+    /* Font -Variant small caps*/
+    font-variant: small-caps;
+    font-style: italic;
+    color: red;
+}
+
+.dfn3,.dfn2
+{
+    /* Text -Alignment justify */
+    text-align: justify;
+}
+
+.dfn1
+{
+    /* Text -Alignment  right*/
+    text-align: right;
+}
+
+.dfn2
+{
+    /* Text -Alignment center*/
+    text-align: center;
+}
+
+/*-----------------------------------------------------------------------*/
+    /* Text - Decoration */
+.link{
+        text-decoration: none;
+    }
+
+.linethrough{
+        text-decoration: line-through;
+    }
+.underline
+{
+    text-decoration: underline;
+}
+.overline{
+    text-decoration: overline;
+}
+.box{
+    text-decoration: overline underline;
+}
+
+.decoration
+{
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-style: oblique;
+    
+}
+/*-----------------------------------------------------------------------*/
+/* Vertical Alignment*/
+.baseline{
+    vertical-align: baseline;
+}
+.auto{
+    vertical-align: auto;
+}
+.middle
+{
+    vertical-align: middle;
+}
+.super{
+    vertical-align: super;
+}
+.sub{
+    vertical-align: sub;
+}
+.bottom{
+    vertical-align: bottom;
+}
+.top{
+    vertical-align: bottom;
+}
+.vertical
+{
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-style: normal;
+}
+
+/*-----------------------------------------------------------------------*/
+/* Text Transformation*/
+.lower
+{
+    text-transform: lowercase;
+}
+.capitalize
+{
+    text-transform: capitalize;
+}
+.upper{
+    text-transform: uppercase;
+}
+.small{
+    font-variant: small-caps;
+    text-indent: 2rem;
+}
+
+.transform{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: brown;
+    /*  Leading , word spacing , letter spacing and text indent*/
+    line-height: 3rem;
+    word-spacing: 1rem;
+    letter-spacing: 0.2rem;
+    text-indent: 2rem;
+}
