@@ -1,0 +1,77 @@
+*{
+    background-color: bisque;
+}
+
+/* Pseudo first letter*/
+.head::first-letter
+{
+   color: rgb(255, 0, 0);
+   font-weight: bold;
+   font-size: 4rem;
+}
+
+/* Pseudo first-line*/
+.firstline::first-line
+{
+    font-variant: small-caps;
+    color: blue;
+}
+
+/* Before the first Line*/
+.before::before
+{
+    content:url();
+}
+/* Before the first Line*/
+.after::after
+{
+    content:url()
+}
+
+/* when we select the word the change it color and background color*/
+::selection
+{
+    color: rgb(4, 4, 4);
+    background-color: yellow;
+}
+
+/* we give bullets color usin marker pseudo elements*/
+.list::marker
+{
+    color: rgb(222, 29, 196);
+}
+
+/*-------------------------------------------------*/
+/* Pseudo class*/
+
+a:link
+{   
+    color: brown;
+}
+
+a:visited
+{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(13, 202, 161);
+    text-decoration: overline;
+}
+a:active{
+    color: rebeccapurple;
+}
+a:focus
+{
+    color: rgb(9, 10, 10);
+}
+
+.link4:focus
+{
+    color: rgb(231, 236, 232);
+    background-color: rgb(36, 28, 198);
+}
+.link4:hover{
+    color: black;
+    background-color: yellow;
+}
